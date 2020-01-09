@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Clicker</title>
+<link rel="icon" 
+      type="image/png" 
+      href="favicon.png" />
+
+<style>
+
+body,html
+{
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	background:#d5d8dc;
+	font-family:Courier new,monospace;
+}
+
+
+</style>
+</head>
+
+
+<!--
+Currency: 
+Ghosts
+
+Ghost makers:
+Chór
+Guślarz
+Starzec
+Aniołki
+Widmo możnowładcy
+Chór ptaków nocnych
+Pasterka
+Milczące widmo
+Dziady
+Mickiewicz
+
+Upgrades:
+-->
+
+<body>
+
+<div style="text-align:center">
+<p style="font-size:50px">NEW AND INNOVATIVE CLICKER</p>
+<img src="ghost.jpg" onclick=Funktion()></img>
+<p style="font-size:33px"; id=clicked></p>
+</div>
+
+<script>
+
+var GhostNumber=0;
+
+function Funktion(){
+	GhostNumber++;
+	document.getElementById("clicked").innerHTML = GhostNumber;
+}
+</script>
+
+</body>
+</html>
