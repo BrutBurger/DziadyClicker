@@ -2,6 +2,7 @@
 Test version has arrived!\
 \
 DziadyClicker is a new, innovative clicker based on famous polish drama "Dziady cz. II'.\
+Current version can be played on my personal site (brutburger.github.io). \
 \
 Currently, it has following features:\
 -Funny image which can be clicked to increase score\
